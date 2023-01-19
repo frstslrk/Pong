@@ -1,0 +1,1 @@
+C:\Users\kalac\AndroidStudioProjects\Task1\app
