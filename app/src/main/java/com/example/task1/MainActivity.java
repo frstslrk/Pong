@@ -2,6 +2,7 @@ package com.example.task1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.graphics.Point;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -9,7 +10,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.Display;
-public class MainActivity extends AppCompatActivity implements SensorEventListener  {
+public class MainActivity extends Activity implements SensorEventListener  {
 
     PongView pongView;
     private SensorManager sensorManager;
